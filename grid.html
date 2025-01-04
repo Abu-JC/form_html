@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="Static/Images/grid.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID SYSTEM</title>
+</head>
+<body>
+    <style>
+        .grid-container{
+            margin: 30px;
+            display: grid;
+            padding: 30px;
+            text-align: center;
+        grid-gap: 50px;
+         background-color: cornflowerblue;
+        color: black;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns: minmax(100px,auto);
+
+}
+    .grid-item{
+        font: bolder;
+        font-size: 20px;
+        background-color: crimson;
+        padding-left: 0px;  
+        padding-right: 0px;     
+    }
+    img{
+        border: 2px solid white;
+        border-radius: 36px;
+        
+    }
+
+    </style>
+    <div class="grid-container">
+        <div class="grid-item">This is item 1 <br>
+            <div>
+            <img src="Static/Images/Football.jpg" width="100%" height="100%" alt="football" >                   
+            </div>
+           <br>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, provident. Ipsam, quia hic! Ex animi ad perspiciatis minima amet sint a numquam fugiat doloribus vitae distinctio atque inventore repellendus tenetur, sequi quae, voluptatibus placeat recusandae consequuntur unde magnam assumenda enim vero ullam! Aut, temporibus id error eos necessitatibus laborum natus.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero laborum veritatis id possimus! Provident cum facere voluptatum, officiis culpa libero nisi. Est architecto nam exercitationem aliquam voluptatibus optio! Voluptatum officia repellendus illum ducimus natus. Mollitia, quis iusto asperiores deleniti ea modi cupiditate tenetur praesentium? Harum sit tempora atque dolorem alias, assumenda aliquam nobis fugit, similique sunt ad, dignissimos temporibus vero? Obcaecati non tempore quo cupiditate, ullam magni rerum in molestias, possimus enim inventore veritatis a, facilis quam praesentium debitis reiciendis voluptates. Fuga impedit quaerat voluptatem commodi rem sit laborum, dicta eaque consequatur quasi, atque veniam voluptas excepturi mollitia voluptatibus repellendus.
+        </div>
+        <div class="grid-item">This is item 2</div>
+        <div class="grid-item">This is item 3</div>
+        <div class="grid-item">This is item 4</div>
+        <div class="grid-item">This is item 5 <br>
+            <img src="Static/Images/Geology.jpg" alt="Geology" width="100%" height="100%"><br>
+            
+        </div>
+        <div class="grid-item">This is item 6</div>
+        <div class="grid-item">This is item 7</div>
+        <div class="grid-item">This is item 8</div>
+        <div class="grid-item">This is item 9</div>
+    </div>
+    
+</body>
+</html>

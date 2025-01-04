@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="name"> <br><br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="name"> <br><br>
+
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email"> <br><br> 
+
+        <label for="number">Phone number</label>
+        <input type="number" id="number" name="number"> <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"> <br> <br>
+
+        <label for="message">Comment:</label>
+        <textarea name="message" id="message" rows="15" cols="50"></textarea> <br><br>
+
+        <h2>Checkboxes</h2>
+        <label for="books">What books do you like?</label><br>
+        <input type="checkbox" id="Atomic" name="Atomic">
+        <label for="Atomic">Atomic habit</label>
+        <input type="checkbox" id="48" name="48">
+        <label for="48">48 Laws of Power</label>
+        <input type="checkbox" id="Things" name="Things">
+        <label for="Things">Things fall apart</label>
+        <input type="checkbox" id="A man" name="A man">
+        <label for="A man">A man of the people</label>
+        <br><br>
+        <h2>Radio button</h2>
+        <label for="Title">What is your favourite book</label><br>
+        <input type="radio" name="favourite book" id="Atomic">
+        <label for="Atomic">Atomic habit</label><br>
+        <input type="radio" name="favourite book" id="48">
+        <label for="48">48 Laws of Power</label><br>
+        <input type="radio" name="favourite book" id="Things">
+        <label for="Things">Things fall apart</label><br>
+        <input type="radio" name="favourite book" id="A man">
+        <label for="A man">A man of the people</label><br>
+        <h2>Dropdown List</h2>
+        <select name="country" id="country">
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="South Africa">South Africa</option>
+            <option value="India">India</option>
+        </select>
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
